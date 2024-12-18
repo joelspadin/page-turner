@@ -4388,6 +4388,15 @@
 				(hide yes)
 			)
 		)
+		(property "Package" ""
+			(at 137.16 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "S"
 			(uuid "86687322-d4b7-48e0-863e-b547032e42e8")
 		)
@@ -4732,6 +4741,15 @@
 				(hide yes)
 			)
 		)
+		(property "Package" "0603"
+			(at 217.17 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "faf859d2-3aa7-4047-8e35-34faa4f9d87c")
 		)
@@ -4766,7 +4784,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "47u"
+		(property "Value" "4.7u"
 			(at 181.8259 55.8284 0)
 			(effects
 				(font
@@ -4803,6 +4821,15 @@
 			)
 		)
 		(property "Manufacturer" ""
+			(at 184.15 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
 			(at 184.15 54.61 0)
 			(effects
 				(font
@@ -5014,6 +5041,15 @@
 			)
 		)
 		(property "Manufacturer" ""
+			(at 194.31 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
 			(at 194.31 54.61 0)
 			(effects
 				(font
@@ -5299,6 +5335,15 @@
 				(hide yes)
 			)
 		)
+		(property "Package" "0603"
+			(at 163.83 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f3bf9ea7-6509-4cda-855d-0dace329f84d")
 		)
@@ -5454,6 +5499,15 @@
 				(hide yes)
 			)
 		)
+		(property "Package" "TSSOP-20"
+			(at 199.39 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "13"
 			(uuid "f03c4426-d88d-4bd1-bcd5-3137a003004c")
 		)
@@ -5586,6 +5640,15 @@
 			)
 		)
 		(property "Manufacturer Part Number" "TPS7A0333PDBVR"
+			(at 142.24 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOT-23-5"
 			(at 142.24 54.61 0)
 			(effects
 				(font
@@ -5746,6 +5809,15 @@
 				(hide yes)
 			)
 		)
+		(property "Package" "0603"
+			(at 110.49 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8046a325-f9a9-4040-868c-1d5430d126f0")
 		)
@@ -5817,6 +5889,15 @@
 			)
 		)
 		(property "Manufacturer" ""
+			(at 130.81 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
 			(at 130.81 58.42 0)
 			(effects
 				(font
@@ -6044,6 +6125,15 @@
 				(hide yes)
 			)
 		)
+		(property "Package" ""
+			(at 137.16 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "S"
 			(uuid "5bc39bc9-b721-4664-b269-f78837855638")
 		)
@@ -6115,6 +6205,15 @@
 			)
 		)
 		(property "Manufacturer" ""
+			(at 137.16 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
 			(at 137.16 142.24 0)
 			(effects
 				(font
@@ -6203,6 +6302,15 @@
 			)
 		)
 		(property "Manufacturer" ""
+			(at 88.9 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
 			(at 88.9 142.24 0)
 			(effects
 				(font
@@ -6302,6 +6410,15 @@
 				(hide yes)
 			)
 		)
+		(property "Package" "0603"
+			(at 153.67 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "79104598-377c-40f7-bb23-7ed855d011f0")
 		)
@@ -6380,6 +6497,15 @@
 			)
 		)
 		(property "Manufacturer Part Number" "DX07S024WJ3R400"
+			(at 85.09 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
 			(at 85.09 76.2 0)
 			(effects
 				(font
@@ -6543,6 +6669,15 @@
 				(hide yes)
 			)
 		)
+		(property "Package" ""
+			(at 168.91 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b6ca7727-d449-44d0-9055-606ae47ffc6c")
 		)
@@ -6686,6 +6821,15 @@
 				(hide yes)
 			)
 		)
+		(property "Package" "0603"
+			(at 110.49 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "39774c1e-43f6-43ad-9082-102caee57f08")
 		)
@@ -6757,6 +6901,15 @@
 			)
 		)
 		(property "Manufacturer" ""
+			(at 203.2 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
 			(at 203.2 146.05 0)
 			(effects
 				(font
@@ -6911,6 +7064,15 @@
 			)
 		)
 		(property "Manufacturer Part Number" "B3U-1100P-B"
+			(at 203.2 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
 			(at 203.2 135.89 0)
 			(effects
 				(font
@@ -7122,6 +7284,15 @@
 			)
 		)
 		(property "Manufacturer" ""
+			(at 207.01 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
 			(at 207.01 54.61 0)
 			(effects
 				(font

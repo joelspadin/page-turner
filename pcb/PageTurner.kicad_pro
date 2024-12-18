@@ -58,7 +58,14 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "copper_edge_clearance|116000000|100000000|cd8729ed-83ae-40e8-8522-a567acb2569f|c8a1a727-ac06-4992-8748-af35576f0a79",
+        "copper_edge_clearance|84000000|100000000|50099dba-db0e-41fe-9e9b-91cd1c90c845|77627e2e-e921-4ecf-aaf8-3f5891ce053a",
+        "silk_edge_clearance|116000000|98116760|cd8729ed-83ae-40e8-8522-a567acb2569f|74ddaea0-cb48-4231-9db2-8693158a768f",
+        "silk_edge_clearance|84000000|101883240|50099dba-db0e-41fe-9e9b-91cd1c90c845|5f712fb8-7440-4066-80a7-f9ae2308c3dd",
+        "starved_thermal|104100000|101470000|0a82c6fa-365e-4f2a-a8be-1dd4da00e371|0ed632e2-cf5b-4904-b6a4-fb6a37dc4b64|F.Cu",
+        "starved_thermal|96000000|89200000|0a82c6fa-365e-4f2a-a8be-1dd4da00e371|f4a35c41-4a43-4c70-a913-0e80ae0c97b0|F.Cu"
+      ],
       "meta": {
         "version": 2
       },
@@ -602,6 +609,12 @@
         },
         {
           "group_by": false,
+          "label": "Package",
+          "name": "Package",
+          "show": true
+        },
+        {
+          "group_by": false,
           "label": "Qty",
           "name": "${QUANTITY}",
           "show": true
@@ -641,7 +654,7 @@
       "group_symbols": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Manufacturer Part Number"
+      "sort_field": "Manufacturer"
     },
     "connection_grid_size": 50.0,
     "drawing": {
