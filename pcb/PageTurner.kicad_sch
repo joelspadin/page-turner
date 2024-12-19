@@ -1442,6 +1442,151 @@
 				)
 			)
 		)
+		(symbol "Device:D_Zener"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Zener"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Zener diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Zener_0_1"
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Zener_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:R_Small"
 			(pin_numbers hide)
 			(pin_names
@@ -3050,7 +3195,7 @@
 		(uuid "342bba57-127a-49f1-b7a6-b708202cda01")
 	)
 	(junction
-		(at 144.78 97.79)
+		(at 133.35 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "389eed5e-012a-4121-a195-45059b0acce6")
@@ -3104,10 +3249,22 @@
 		(uuid "c30e8c47-98bc-4eb5-a898-952bdec717a4")
 	)
 	(junction
+		(at 139.7 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c3a1d5fe-421e-46b6-b4e4-a8520f4166ae")
+	)
+	(junction
 		(at 85.09 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c9c51db5-853c-4ae0-b585-3d45741004e0")
+	)
+	(junction
+		(at 139.7 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d3d2ddce-a1fa-41e5-9b2d-10a2239499d5")
 	)
 	(junction
 		(at 100.33 66.04)
@@ -3317,7 +3474,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 97.79) (xy 144.78 97.79)
+			(xy 130.81 97.79) (xy 133.35 97.79)
 		)
 		(stroke
 			(width 0)
@@ -3367,7 +3524,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 97.79) (xy 144.78 100.33)
+			(xy 133.35 97.79) (xy 133.35 102.87)
 		)
 		(stroke
 			(width 0)
@@ -3434,6 +3591,16 @@
 			(type default)
 		)
 		(uuid "47d074a2-916d-4171-bc27-6c249f760abd")
+	)
+	(wire
+		(pts
+			(xy 139.7 81.28) (xy 130.81 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ff5b312-a89e-4f97-b1e9-1758a2d1a2b1")
 	)
 	(wire
 		(pts
@@ -3547,7 +3714,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 81.28) (xy 142.24 81.28)
+			(xy 147.32 81.28) (xy 139.7 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3567,7 +3734,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 83.82) (xy 144.78 97.79)
+			(xy 133.35 83.82) (xy 133.35 97.79)
 		)
 		(stroke
 			(width 0)
@@ -3627,7 +3794,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 83.82) (xy 144.78 83.82)
+			(xy 130.81 83.82) (xy 133.35 83.82)
 		)
 		(stroke
 			(width 0)
@@ -3644,6 +3811,16 @@
 			(type default)
 		)
 		(uuid "b94e0f94-cf61-4f6d-bdc9-7e1a609ea182")
+	)
+	(wire
+		(pts
+			(xy 139.7 95.25) (xy 130.81 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c26976dc-68fb-42b4-b483-8cbf084935f2")
 	)
 	(wire
 		(pts
@@ -3687,7 +3864,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 95.25) (xy 142.24 95.25)
+			(xy 147.32 95.25) (xy 139.7 95.25)
 		)
 		(stroke
 			(width 0)
@@ -3747,7 +3924,7 @@
 	)
 	(global_label "SW1"
 		(shape input)
-		(at 149.86 81.28 0)
+		(at 147.32 81.28 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3757,7 +3934,7 @@
 		)
 		(uuid "0a8a7175-58be-4c1f-9d78-18d654e1d7c7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 156.7156 81.28 0)
+			(at 154.1756 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3945,7 +4122,7 @@
 	)
 	(global_label "SW2"
 		(shape input)
-		(at 149.86 95.25 0)
+		(at 147.32 95.25 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3955,7 +4132,7 @@
 		)
 		(uuid "5af64a7a-c6a0-4106-b24d-142c1976ef14")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 156.7156 95.25 0)
+			(at 154.1756 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4319,7 +4496,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Audio:AudioJack2")
-		(at 137.16 95.25 0)
+		(at 125.73 95.25 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4328,7 +4505,7 @@
 		(dnp no)
 		(uuid "0c91ded8-6b3c-427b-a717-dfecf4310267")
 		(property "Reference" "J2"
-			(at 136.525 103.2045 0)
+			(at 125.095 103.2045 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4336,7 +4513,7 @@
 			)
 		)
 		(property "Value" "AudioJack2"
-			(at 136.525 100.7802 0)
+			(at 125.095 100.7802 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4344,7 +4521,7 @@
 			)
 		)
 		(property "Footprint" "PageTurner:Jack_6.35mm_Neutrik_NJ2FD-V_Vertical"
-			(at 137.16 95.25 0)
+			(at 125.73 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4353,7 +4530,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 137.16 95.25 0)
+			(at 125.73 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4362,7 +4539,7 @@
 			)
 		)
 		(property "Description" "Audio Jack, 2 Poles (Mono / TS)"
-			(at 137.16 95.25 0)
+			(at 125.73 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4371,7 +4548,7 @@
 			)
 		)
 		(property "Manufacturer" "Neutrik"
-			(at 137.16 95.25 0)
+			(at 125.73 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4380,7 +4557,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "NJ2FD-V"
-			(at 137.16 95.25 0)
+			(at 125.73 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4389,7 +4566,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 137.16 95.25 0)
+			(at 125.73 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4547,7 +4724,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 144.78 100.33 0)
+		(at 133.35 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4556,7 +4733,7 @@
 		(fields_autoplaced yes)
 		(uuid "20f955a7-14d1-4037-9c8b-2cc3c0aaf9a3")
 		(property "Reference" "#PWR01"
-			(at 144.78 106.68 0)
+			(at 133.35 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4565,7 +4742,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 144.78 104.4631 0)
+			(at 133.35 107.0031 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4573,7 +4750,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 100.33 0)
+			(at 133.35 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4582,7 +4759,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 100.33 0)
+			(at 133.35 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4591,7 +4768,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 144.78 100.33 0)
+			(at 133.35 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4606,6 +4783,72 @@
 			(project ""
 				(path "/88c71582-ad78-4ced-885b-5742ae7c06d6"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 139.7 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2366f95e-911d-48a6-a9bc-f848760431f3")
+		(property "Reference" "#PWR021"
+			(at 139.7 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 139.7 107.0031 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 139.7 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ccd551ad-1908-4222-900d-9549041b3a7a")
+		)
+		(instances
+			(project "PageTurner"
+				(path "/88c71582-ad78-4ced-885b-5742ae7c06d6"
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -5134,6 +5377,76 @@
 			(project "PageTurner"
 				(path "/88c71582-ad78-4ced-885b-5742ae7c06d6"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Zener")
+		(at 139.7 85.09 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3e6fbff7-3bef-4989-a64c-5f7909de674c")
+		(property "Reference" "D1"
+			(at 141.732 83.8778 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PESD3V3L1BA"
+			(at 141.732 86.3021 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+			(at 139.7 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener diode"
+			(at 139.7 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6aa4a992-23fd-4501-b591-43730cd218d0")
+		)
+		(pin "2"
+			(uuid "a9f3cfec-496f-4ecb-af10-0a4f91ef941c")
+		)
+		(instances
+			(project ""
+				(path "/88c71582-ad78-4ced-885b-5742ae7c06d6"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -5988,6 +6301,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 139.7 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "92b8f360-8805-4b8e-a0b8-7516fa2be185")
+		(property "Reference" "#PWR019"
+			(at 139.7 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 139.7 93.0331 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 139.7 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e3c2cbf3-496c-4ea6-94dd-1025b1c5e01c")
+		)
+		(instances
+			(project "PageTurner"
+				(path "/88c71582-ad78-4ced-885b-5742ae7c06d6"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 132.08 142.24 90)
 		(unit 1)
@@ -6056,7 +6435,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Audio:AudioJack2")
-		(at 137.16 81.28 0)
+		(at 125.73 81.28 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6065,7 +6444,7 @@
 		(dnp no)
 		(uuid "9713301b-2d31-4d6b-9ec7-8f2f3047945d")
 		(property "Reference" "J1"
-			(at 136.525 89.2345 0)
+			(at 125.095 89.2345 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6073,7 +6452,7 @@
 			)
 		)
 		(property "Value" "AudioJack2"
-			(at 136.525 86.8102 0)
+			(at 125.095 86.8102 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6081,7 +6460,7 @@
 			)
 		)
 		(property "Footprint" "PageTurner:Jack_6.35mm_Neutrik_NJ2FD-V_Vertical"
-			(at 137.16 81.28 0)
+			(at 125.73 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6090,7 +6469,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 137.16 81.28 0)
+			(at 125.73 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6099,7 +6478,7 @@
 			)
 		)
 		(property "Description" "Audio Jack, 2 Poles (Mono / TS)"
-			(at 137.16 81.28 0)
+			(at 125.73 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6108,7 +6487,7 @@
 			)
 		)
 		(property "Manufacturer" "Neutrik"
-			(at 137.16 81.28 0)
+			(at 125.73 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6117,7 +6496,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "NJ2FD-V"
-			(at 137.16 81.28 0)
+			(at 125.73 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6126,7 +6505,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 137.16 81.28 0)
+			(at 125.73 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7157,6 +7536,76 @@
 			(project "PageTurner"
 				(path "/88c71582-ad78-4ced-885b-5742ae7c06d6"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Zener")
+		(at 139.7 99.06 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f0587cc9-af1b-4c84-8705-f790c1dcf0a2")
+		(property "Reference" "D2"
+			(at 141.732 97.8478 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PESD3V3L1BA"
+			(at 141.732 100.2721 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+			(at 139.7 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener diode"
+			(at 139.7 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "23307275-8130-42c9-8f64-b455e5b8dfd4")
+		)
+		(pin "2"
+			(uuid "a4e9da20-288c-4ae9-844d-c5217b78f2c9")
+		)
+		(instances
+			(project "PageTurner"
+				(path "/88c71582-ad78-4ced-885b-5742ae7c06d6"
+					(reference "D2")
 					(unit 1)
 				)
 			)
