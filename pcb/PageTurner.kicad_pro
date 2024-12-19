@@ -58,7 +58,14 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "copper_edge_clearance|116000000|100000000|cd8729ed-83ae-40e8-8522-a567acb2569f|fd0d2bd3-4c5d-40f0-bb43-3fe5f1dd5637",
+        "copper_edge_clearance|84000000|100000000|50099dba-db0e-41fe-9e9b-91cd1c90c845|29fe2818-faa9-47d5-ab2d-dc675ba1925b",
+        "silk_edge_clearance|116000000|98116760|cd8729ed-83ae-40e8-8522-a567acb2569f|c2f51e63-58dc-4373-904a-6f8b5fa4c72b",
+        "silk_edge_clearance|84000000|101883240|50099dba-db0e-41fe-9e9b-91cd1c90c845|160a7852-f972-4cdb-9fde-a864f63fd702",
+        "starved_thermal|104100000|101470000|0a82c6fa-365e-4f2a-a8be-1dd4da00e371|41aefaee-52c0-47ed-a9b1-5d7461aa9bf4|F.Cu",
+        "starved_thermal|96000000|89200000|0a82c6fa-365e-4f2a-a8be-1dd4da00e371|d441e7f0-34c8-4ada-b53b-a651839c0e43|F.Cu"
+      ],
       "meta": {
         "version": 2
       },
