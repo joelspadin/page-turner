@@ -6839,7 +6839,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PageTurner:USB_C_Receptacle_JAE_DX07S024WJ3R400"
+		(property "Footprint" "PageTurner:USB_C_Receptacle_GCT_USB_4145"
 			(at 88.9 76.2 0)
 			(effects
 				(font
