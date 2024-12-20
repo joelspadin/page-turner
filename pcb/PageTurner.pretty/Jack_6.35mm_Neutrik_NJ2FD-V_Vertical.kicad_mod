@@ -397,7 +397,7 @@
 	)
 	(model "./3dshapes/NJ2FD-V.step"
 		(offset
-			(xyz 0 -5.715 0)
+			(xyz 0 -5.715 0.4)
 		)
 		(scale
 			(xyz 1 1 1)
