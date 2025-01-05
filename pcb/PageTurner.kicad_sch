@@ -5625,6 +5625,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Diodes Incorporated"
+			(at 257.81 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "SD03C-7"
+			(at 257.81 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6aa4a992-23fd-4501-b591-43730cd218d0")
 		)
@@ -7796,6 +7814,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Nexperia"
+			(at 142.24 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "PRTR5V0U2X,215"
+			(at 142.24 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3bb50824-a92f-45c2-a5d8-43c3a5aa2ca0")
 		)
@@ -8160,6 +8196,24 @@
 			)
 		)
 		(property "Description" "Zener diode"
+			(at 257.81 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Diodes Incorporated"
+			(at 257.81 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "SD03C-7"
 			(at 257.81 86.36 0)
 			(effects
 				(font
