@@ -32,6 +32,7 @@ fp-info-cache
 
 # Generated files
 /out
+/pcb/bom
 
 # Tempfiles that kibot might not clean up
 kibot_*.kicad_*
