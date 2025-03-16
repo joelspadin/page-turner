@@ -10,6 +10,8 @@ The [pcb](./pcb) folder contains a [KiCad](https://www.kicad.org/) project for t
 
 All parts are hand-solderable. I recommend starting from the USB port and working out from the center on the top side, then soldering the phone jacks last.
 
+With [Python](https://www.python.org/) and [Docker](https://www.docker.com/products/docker-desktop/) installed, you can use [KiBot](https://github.com/INTI-CMNB/KiBot) to generate Gerber files for JLC PCB or PCBWay. Simply run the [kibot.py](./kibot.py) script, then check the "out" folder for the results.
+
 ## Bill of Materials
 
 | References | Part              | Manufacturer       | Package  | Qty. | Description           |
